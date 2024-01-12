@@ -1,0 +1,17 @@
+ 
+<div class="seller">
+    <h2>Login</h2>
+        
+    <form #form='ngForm' (ngSubmit)="login(form.value)">
+        <input type="text" name="user" placeholder="enter user id" required ngModel >
+        <br>
+        <input type="password"  name="password" placeholder="enter password" required  ngModel>
+        <br>
+        
+        
+        <button [disabled]='form.invalid'>Login</button>
+        <br>
+
+        <br><a routerLink="/seller" > dose not your account to signUp</a>
+    </form>
+     </div>

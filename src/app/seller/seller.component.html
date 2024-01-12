@@ -1,0 +1,18 @@
+ <div class="seller">
+<h2>Seller SignUp</h2>
+    
+<form #form='ngForm' (ngSubmit)="signUp(form.value)">
+    <input type="text" name="user" placeholder="enter user id" required ngModel >
+    <br>
+    <input type="password" name="password"   #pass placeholder="enter password" (keyup)="passwordData(pass.value)" required ngModel >
+    <input type="password" name="confirmPassword"  #confirmPass placeholder="comfirm password" (keyup)="confirmPasswordData(confirmPass.value)" required ngModel>
+    <p *ngIf="confirmPasswordError">plese enter correct password</p>
+     
+    <input type="email"name="email"   placeholder="enter email id" required ngModel >
+    <br>
+    <button [disabled]='form.invalid'> SignUp</button>
+    <a routerLink="/login"> you have a account to plise login</a>
+</form>
+ </div>
+<!-- this is login form work -->
+

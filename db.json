@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "user": "jagdish patil",
+      "password": "123",
+      "confirmPassword": "123",
+      "email": "jagdish@123",
+      "id": 1
+    },
+    {
+      "user": "jd",
+      "password": "1234",
+      "confirmPassword": "1234",
+      "email": "jd@123gmail.com",
+      "id": 2
+    },
+    {
+      "user": "shri",
+      "password": "12",
+      "confirmPassword": "12",
+      "email": "shri@123gmail.com",
+      "id": 3
+    },
+    {
+      "user": "kishor",
+      "password": "kish",
+      "confirmPassword": "kish",
+      "email": "kishor@123gmail.com",
+      "id": 4
+    }
+  ],
+  "comments": [],
+  "profile": []
+}
